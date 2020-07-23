@@ -1,4 +1,5 @@
 <?php
+
 	$rimNumber = ' ';
 echo 'Введите число: ';
 $number = readline();
