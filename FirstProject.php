@@ -1,7 +1,5 @@
-<?php
-	$rimNumber = ' ';
-echo 'Введите число: ';
-$number = readline();
+﻿<?php
+$number = readline('Введите число:  ');
 system('clear');
 for ($i = 0; $i <= 37; $i ++)
 {
@@ -73,7 +71,6 @@ if ($d !== 0)
 	if ($d === 9)
 		$rimNumber .= "IX";
 }
-
 print_r("\n");
 print_r('Ваше число в римской системе: ' . $rimNumber);
 print_r("\n");
