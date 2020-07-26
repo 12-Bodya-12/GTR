@@ -74,7 +74,6 @@ if ($d !== 0)
 print_r("\n");
 print_r('Ваше число в римской системе: ' . $rimNumber);
 print_r("\n");
-
 for ($i = 0; $i <= 37; $i++)
 print_r('~');
 ?>
