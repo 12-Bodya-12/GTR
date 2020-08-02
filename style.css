@@ -1,0 +1,44 @@
+body{
+    background-image: url(./image/texture.jpg);
+}
+.contr {
+    background-color: rgb(74, 143, 53, 0.4);
+    margin: 70px;
+    padding: 3px;
+    color: rgb(226, 198, 43);
+    height: 100vh;
+    border-radius: 50px;
+}
+.contr:first-child{
+background-color: rgba(225, 145, 0, 0.4);
+}
+.contr:nth-child(2){
+    background: url('../AndOne/image/maxresdefault.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1:hover  {
+color:rgb(255, 0, 0)
+}
+h1{
+text-align: center;
+}
+.clor:hover{
+    color: plum;
+}
+img{
+    display: block;
+    block-size: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    text-align: center;
+    font-size: 200%;
+    box-shadow: black 1px 3px 50px 10px;
+    border-radius:3px ;
+    background: rgb(red, green, blue);
+}
+.contr:nth-child(4){
+    background-color: rgba(204, 218, 82, 0.4);
+}
